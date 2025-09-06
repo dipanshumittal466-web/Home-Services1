@@ -1,0 +1,33 @@
+<%- include('../partials/header') %>
+<h1>Subscription Plans</h1>
+<div class="grid">
+  <% site.pricing.forEach(function(p){ %>
+    <div class="card"><h3><%= p.plan %></h3><p><%= p.benefit %></p></div>
+  <% }); %>
+</div>
+<%- include('../partials/footer') %>
+
+<script>
+async function createCheckout(priceId){
+  const payload = {
+    priceId,
+    success_url: window.location.origin + '/dashboard',
+    cancel_url: window.location.href,
+    customer_email: prompt('Enter your email for receipt/billing:')
+  };
+  const r = await fetch('/api/payments/create-checkout-session', {
+    method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)
+  });
+  const json = await r.json();
+  if(json.url) window.location = json.url; else alert(JSON.stringify(json));
+}
+</script>
+
+<div class="card">
+  <h3>Subscribe Now</h3>
+  <p>Select a plan to proceed to secure payment.</p>
+  <button onclick="createCheckout('<%= process.env.STRIPE_PRICE_BASIC || 'price_basic' %>')">Buy Basic</button>
+  <button onclick="createCheckout('<%= process.env.STRIPE_PRICE_STANDARD || 'price_standard' %>')">Buy Standard</button>
+  <button onclick="createCheckout('<%= process.env.STRIPE_PRICE_PRO || 'price_pro' %>')">Buy Pro</button>
+  <button onclick="createCheckout('<%= process.env.STRIPE_PRICE_UNLIMITED || 'price_unlimited' %>')">Buy Unlimited</button>
+</div>

@@ -1,0 +1,137 @@
+<%- include('../partials/header') %>
+<h1>Dashboard</h1>
+<div class="grid">
+  <div class="card">
+    <h3>Post a Job</h3>
+    <form id="jobForm">
+      <input name="title" placeholder="Job title" required>
+      <textarea name="description" placeholder="Description"></textarea>
+      <input name="category" placeholder="Category">
+      <input name="location" placeholder="Location">
+      <input name="budget" placeholder="Budget">
+      <button>Create</button>
+    </form>
+  </div>
+  <div class="card">
+    <h3>Jobs</h3>
+    <div id="jobs"></div>
+  </div>
+  <div class="card">
+    <h3>Chat</h3>
+    <input id="room" placeholder="Room ID (job id)">
+    <div id="chatbox" style="height:200px;overflow:auto;border:1px solid #ddd;margin:8px 0;padding:8px;"></div>
+    <input id="msg" placeholder="Type message">
+    <button id="send">Send</button>
+  </div>
+  <div class="card">
+    <h3>Upload Verification</h3>
+    <form id="verForm" enctype="multipart/form-data">
+      <input name="user" placeholder="User ID" required>
+      <select name="type">
+        <option value="license">License</option>
+        <option value="id">ID</option>
+        <option value="insurance">Insurance</option>
+      </select>
+      <input type="date" name="expiresAt">
+      <input type="file" name="file" required>
+      <button>Upload</button>
+    </form>
+    <div id="verList"></div>
+  </div>
+  <div class="card">
+    <h3>Notifications</h3>
+    <form id="noteForm">
+      <input name="user" placeholder="User ID" required>
+      <input name="type" placeholder="Type">
+      <input name="message" placeholder="Message">
+      <button>Create</button>
+    </form>
+    <div id="notes"></div>
+  </div>
+
+  <div class="card">
+    <h3>Analytics</h3>
+    <canvas id="appliedWon"></canvas>
+    <canvas id="monthlyActivity" style="margin-top:16px;"></canvas>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+// Dummy data; replace with API in future
+const applied = 20, won = 7;
+new Chart(document.getElementById('appliedWon').getContext('2d'), {
+  type: 'bar',
+  data: { labels:['Applied','Won'], datasets:[{ data:[applied, won] }] },
+  options: { plugins:{ legend: { display:false } } }
+});
+const labels = ['Jan','Feb','Mar','Apr','May','Jun'];
+const values = [3,5,4,6,8,7];
+new Chart(document.getElementById('monthlyActivity').getContext('2d'), {
+  type: 'line',
+  data: { labels, datasets:[{ data: values, tension: 0.3 }] },
+  options: { plugins:{ legend: { display:false } } }
+});
+</script>
+
+<script>
+async function get(url){ const r = await fetch(url); return r.json(); }
+async function post(url, data){ const r = await fetch(url,{method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data)}); return r.json(); }
+
+// Jobs
+document.querySelector('#jobForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const data = Object.fromEntries(new FormData(e.target).entries());
+  const json = await post('/api/jobs', data);
+  alert('Job created'); loadJobs();
+});
+async function loadJobs(){
+  const json = await get('/api/jobs');
+  const el = document.querySelector('#jobs');
+  el.innerHTML = (json.jobs||[]).map(j=>`<div><strong>${j.title}</strong> — ${j.status} — <code>${j._id}</code></div>`).join('');
+}
+loadJobs();
+
+// Chat
+const socket = io();
+document.getElementById('send').onclick = async ()=>{
+  const roomId = document.getElementById('room').value;
+  const text = document.getElementById('msg').value;
+  const payload = { roomId, text };
+  await fetch('/api/chat/'+roomId, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)});
+  document.getElementById('msg').value='';
+};
+document.getElementById('room').addEventListener('change', (e)=>{
+  socket.emit('joinRoom', e.target.value);
+  fetch('/api/chat/'+e.target.value).then(r=>r.json()).then(json=>{
+    const box = document.getElementById('chatbox'); box.innerHTML='';
+    json.messages.forEach(m=> addMsg(m));
+  });
+});
+socket.on('chatMessage', addMsg);
+function addMsg(m){ const box = document.getElementById('chatbox'); const d=document.createElement('div'); d.textContent=m.text; box.appendChild(d); box.scrollTop=box.scrollHeight; }
+
+// Verification upload
+document.getElementById('verForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const fd = new FormData(e.target);
+  const r = await fetch('/api/verify/upload', { method:'POST', body: fd });
+  const json = await r.json();
+  alert('Uploaded'); loadVer(fd.get('user'));
+});
+async function loadVer(userId){
+  const json = await get('/api/verify/user/'+userId);
+  document.getElementById('verList').innerHTML = (json.docs||[]).map(d=>`<div>${d.type} — ${d.status} — <a href="${d.filePath}" target="_blank">file</a></div>`).join('');
+}
+
+// Notifications
+document.getElementById('noteForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const data = Object.fromEntries(new FormData(e.target).entries());
+  const json = await post('/api/notifications', data);
+  alert('Notification added'); loadNotes(data.user);
+});
+async function loadNotes(userId){
+  const json = await get('/api/notifications/user/'+userId);
+  document.getElementById('notes').innerHTML = (json.notifications||[]).map(n=>`<div>${n.message}</div>`).join('');
+}
+</script>
+<%- include('../partials/footer') %>

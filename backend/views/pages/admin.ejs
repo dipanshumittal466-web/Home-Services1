@@ -1,0 +1,40 @@
+
+<%- include('../partials/header') %>
+<h1>Admin Panel</h1>
+<div class="grid">
+  <div class="card">
+    <h3>Users</h3>
+    <div id="users"></div>
+  </div>
+  <div class="card">
+    <h3>Verification Docs</h3>
+    <div id="docs"></div>
+  </div>
+  <div class="card">
+    <h3>Jobs</h3>
+    <div id="jobsAdmin"></div>
+  </div>
+  <div class="card">
+    <h3>Payments (Stripe)</h3>
+    <p>Webhook status visible in server logs. Use Stripe Dashboard for full insights.</p>
+  </div>
+</div>
+<script>
+async function get(url){ const r = await fetch(url); return r.json(); }
+async function post(url, data){ const r = await fetch(url,{method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data)}); return r.json(); }
+
+async function load(){
+  const u = await get('/api/admin/users');
+  document.getElementById('users').innerHTML = (u.users||[]).map(x=>`<div>${x.email} — ${x.role} — ${x.verified ? '✅' : '❌'}</div>`).join('');
+
+  const d = await get('/api/admin/docs');
+  document.getElementById('docs').innerHTML = (d.docs||[]).map(x=>`<div>${x.type} — ${x.status} — <a href="${x.filePath}" target="_blank">file</a> — <button onclick="approve('${x._id}')">Approve</button> <button onclick="reject('${x._id}')">Reject</button></div>`).join('');
+
+  const j = await get('/api/admin/jobs');
+  document.getElementById('jobsAdmin').innerHTML = (j.jobs||[]).map(x=>`<div>${x.title} — ${x.status}</div>`).join('');
+}
+async function approve(id){ await post('/api/admin/docs/approve',{id}); load(); }
+async function reject(id){ await post('/api/admin/docs/reject',{id}); load(); }
+load();
+</script>
+<%- include('../partials/footer') %>

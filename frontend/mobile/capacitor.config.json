@@ -1,6 +1,0 @@
-{
-  "appId": "com.client.homeservices",
-  "appName": "HomeServices",
-  "webDir": "../dist",
-  "bundledWebRuntime": false
-}

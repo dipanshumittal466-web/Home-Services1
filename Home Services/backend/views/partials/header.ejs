@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><%= site.company %></title>
+<link rel="stylesheet" href="/styles.css">
+<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<header class="container">
+  <div class="brand"><a href="/"><img src="/assets/logo.png" alt="<%= site.company %>" style="height:40px;"></a></div>
+  <nav>
+    <% site.nav.forEach(function(item){ %>
+      <a href="<%= item.href %>"><%= item.label %></a>
+    <% }); %>
+  </nav>
+</header>
+<main class="container">

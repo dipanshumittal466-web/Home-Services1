@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "होम",
+    "categories": "श्रेणियाँ",
+    "admin": "एडमिन",
+    "manager": "मैनेजर",
+    "language": "भाषा"
+  },
+  "home": {
+    "how": "कैसे काम करता है",
+    "success": "सक्सेस स्टोरीज़"
+  },
+  "filters": {
+    "filters": "फिल्टर्स",
+    "category": "श्रेणी",
+    "budget": "बजट",
+    "min": "न्यूनतम",
+    "max": "अधिकतम",
+    "location": "स्थान",
+    "status": "स्थिति",
+    "search": "खोजें"
+  },
+  "actions": {
+    "downloadReport": "रिपोर्ट डाउनलोड करें"
+  }
+}

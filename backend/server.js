@@ -72,7 +72,7 @@ app.use('/api/notifications', require('./routes/notifications'));
 app.use('/api/payments', require('./routes/payments'));
 app.use('/api/admin', require('./routes/admin'));
 
-const port = process.env.PORT || 10000;
+const port = process.env.PORT;
 httpServer.listen(port, () => console.log('Server running on port', port));
 
 app.use('/api/users', require('./routes/users'));

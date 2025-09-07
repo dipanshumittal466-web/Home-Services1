@@ -1,20 +1,29 @@
 const express = require("express");
 const router = express.Router();
 const multer = require("multer");
+const fs = require("fs");
+const path = require("path");
 const VerificationDoc = require("../models/VerificationDoc");
 
-// Disk storage (files will go to uploads/ folder)
+// Make sure uploads folder exists
+const uploadDir = path.join(__dirname, "..", "uploads");
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir);
+}
+
+// Disk storage (files go to uploads/ folder)
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "uploads/"); // folder must exist
+    cb(null, uploadDir);
   },
   filename: function (req, file, cb) {
     cb(null, Date.now() + "-" + file.originalname);
   },
 });
 
-const upload = multer({ storage: storage });
+const upload = multer({ storage });
 
+// Upload API
 router.post("/upload", upload.single("file"), async (req, res) => {
   try {
     const { user, type, expiresAt } = req.body;
@@ -24,7 +33,7 @@ router.post("/upload", upload.single("file"), async (req, res) => {
       user,
       type,
       expiresAt,
-      filePath: fileUrl, // path store in DB
+      filePath: fileUrl, // store path in DB
     });
 
     res.json({ ok: true, doc });
@@ -34,11 +43,13 @@ router.post("/upload", upload.single("file"), async (req, res) => {
   }
 });
 
+// Get user docs
 router.get("/user/:userId", async (req, res) => {
   try {
-    const docs = await VerificationDoc.find({ user: req.params.userId }).sort(
-      "-createdAt"
-    );
+    const docs = await VerificationDoc.find({
+      user: req.params.userId,
+    }).sort("-createdAt");
+
     res.json({ ok: true, docs });
   } catch (e) {
     console.error(e);

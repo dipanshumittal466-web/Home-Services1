@@ -1,7 +1,6 @@
 
 const router = require('express').Router();
 const VerificationDoc = require('../models/VerificationDoc');
-const { upload, getPublicUrl } = require('../storage');
 
 router.post('/upload', upload.single('file'), async (req,res)=>{
   try{

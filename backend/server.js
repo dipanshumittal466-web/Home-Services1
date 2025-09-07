@@ -12,7 +12,12 @@ const { Server } = require('socket.io');
 
 const app = express();
 const httpServer = createServer(app);
-const io = new Server(httpServer, { cors: { origin: process.env.ORIGIN || '*', methods: ['GET','POST'] } });
+const io = new Server(httpServer, { 
+  cors: { 
+    origin: process.env.ORIGIN || '*', 
+    methods: ['GET','POST'] 
+  } 
+});
 
 // Middleware
 app.use(helmet());
@@ -39,7 +44,7 @@ const Message = require('./models/Message');
 const VerificationDoc = require('./models/VerificationDoc');
 const Notification = require('./models/Notification');
 
-// Socket.io auth via token (optional simple)
+// Socket.io
 io.use(async (socket, next) => {
   next();
 });
@@ -66,31 +71,34 @@ app.get('/admin', (req,res)=>res.render('pages/admin',{site}));
 
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/jobs', require('./routes/jobs'));
-app.use('/api/chat', require('./routes/chat')(io));
+
+// ✅ FIXED CHAT ROUTE
+const chatRoutes = require('./routes/chat')(io);
+app.use('/api/chat', chatRoutes);
+
 app.use('/api/verify', require('./routes/verify'));
 app.use('/api/notifications', require('./routes/notifications'));
 app.use('/api/payments', require('./routes/payments'));
 app.use('/api/admin', require('./routes/admin'));
 
-const port = process.env.PORT;
+// Start server
+const port = process.env.PORT || 3000;
 httpServer.listen(port, () => console.log('Server running on port', port));
 
+// Extra APIs
 app.use('/api/users', require('./routes/users'));
-
 app.use('/api/indemnity', require('./routes/indemnity'));
-
 app.use('/api/categories', require('./routes/categories'));
-
 app.use('/api/plans', require('./routes/plans'));
-
 app.use('/api/manager', require('./routes/manager'));
-
 app.use('/api/testimonials', require('./routes/testimonials'));
 
-try{ require('./routes/payments_webhook')(app) }catch(e){ console.log('Webhook not mounted', e.message) }
+try { 
+  require('./routes/payments_webhook')(app); 
+} catch(e) { 
+  console.log('Webhook not mounted', e.message); 
+}
 
 app.use('/api/tradies', require('./routes/tradies'));
-
 app.use('/api/reports', require('./routes/reports'));
-
-app.use('/api/reports', require('./routes/reports_pdf'))
+app.use('/api/reports', require('./routes/reports_pdf'));

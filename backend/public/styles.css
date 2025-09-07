@@ -1,9 +1,0 @@
-:root { --max: 1100px; } *{box-sizing:border-box} body{font-family:system-ui,Arial,sans-serif;margin:0;line-height:1.5}
-.container{max-width:var(--max);margin:0 auto;padding:20px}
-header.container{display:flex;justify-content:space-between;align-items:center;gap:12px}
-nav a{margin-left:10px;text-decoration:none}
-.hero{padding:30px 0}
-.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
-.card{border:1px solid #ddd;border-radius:10px;padding:14px}
-button,input,select,textarea{padding:10px;margin:6px 0;width:100%}
-footer{margin-top:40px;border-top:1px solid #eee;padding:16px;text-align:center}

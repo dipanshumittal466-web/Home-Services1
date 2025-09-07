@@ -1,0 +1,1552 @@
+[
+  {
+    "name": "HomeServicesEtc.com Service Taxonomy (Full Version)",
+    "slug": "homeservicesetc-com-service-taxonomy-full-version",
+    "icon": "default.png"
+  },
+  {
+    "name": "Handyman & General Repairs",
+    "slug": "handyman-general-repairs",
+    "icon": "man.png"
+  },
+  {
+    "name": "General handyman / odd jobs",
+    "slug": "general-handyman-odd-jobs",
+    "icon": "man.png"
+  },
+  {
+    "name": "Furniture assembly / flat",
+    "slug": "furniture-assembly-flat",
+    "icon": "default.png"
+  },
+  {
+    "name": "Picture/mirror hanging, TV mounting",
+    "slug": "picture-mirror-hanging-tv-mounting",
+    "icon": "default.png"
+  },
+  {
+    "name": "Door repairs",
+    "slug": "door-repairs",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Flyscreens & mesh, window latches",
+    "slug": "flyscreens-mesh-window-latches",
+    "icon": "default.png"
+  },
+  {
+    "name": "Caulking & sealing (bath, kitchen, windows)",
+    "slug": "caulking-sealing-bath-kitchen-windows",
+    "icon": "default.png"
+  },
+  {
+    "name": "Basic carpentry (shelves, trims, skirting)",
+    "slug": "basic-carpentry-shelves-trims-skirting",
+    "icon": "default.png"
+  },
+  {
+    "name": "Small patch & paint",
+    "slug": "small-patch-paint",
+    "icon": "default.png"
+  },
+  {
+    "name": "Weatherproofing & draught sealing",
+    "slug": "weatherproofing-draught-sealing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Carpentry & Joinery",
+    "slug": "carpentry-joinery",
+    "icon": "default.png"
+  },
+  {
+    "name": "Framing & extensions",
+    "slug": "framing-extensions",
+    "icon": "default.png"
+  },
+  {
+    "name": "Decks, pergolas, verandahs",
+    "slug": "decks-pergolas-verandahs",
+    "icon": "default.png"
+  },
+  {
+    "name": "Stairs & balustrades",
+    "slug": "stairs-balustrades",
+    "icon": "default.png"
+  },
+  {
+    "name": "Custom cabinetry & built",
+    "slug": "custom-cabinetry-built",
+    "icon": "default.png"
+  },
+  {
+    "name": "Doors & architraves",
+    "slug": "doors-architraves",
+    "icon": "default.png"
+  },
+  {
+    "name": "Skirting & mouldings",
+    "slug": "skirting-mouldings",
+    "icon": "default.png"
+  },
+  {
+    "name": "Timber repairs & rot replacement",
+    "slug": "timber-repairs-rot-replacement",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Plumbing, Gas & Drainage",
+    "slug": "plumbing-gas-drainage",
+    "icon": "Plumbing.png"
+  },
+  {
+    "name": "Emergency plumbing (24/7)",
+    "slug": "emergency-plumbing-24-7",
+    "icon": "2.png"
+  },
+  {
+    "name": "Blocked drains / CCTV drain inspection",
+    "slug": "blocked-drains-cctv-drain-inspection",
+    "icon": "default.png"
+  },
+  {
+    "name": "Leaks",
+    "slug": "leaks",
+    "icon": "default.png"
+  },
+  {
+    "name": "Hot water systems (gas, electric, solar, heat",
+    "slug": "hot-water-systems-gas-electric-solar-heat",
+    "icon": "default.png"
+  },
+  {
+    "name": "Gasfitting",
+    "slug": "gasfitting",
+    "icon": "default.png"
+  },
+  {
+    "name": "Roof plumbing, gutters & downpipes",
+    "slug": "roof-plumbing-gutters-downpipes",
+    "icon": "Plumbing.png"
+  },
+  {
+    "name": "Rainwater tanks & pump installations",
+    "slug": "rainwater-tanks-pump-installations",
+    "icon": "default.png"
+  },
+  {
+    "name": "Backflow prevention & TMV servicing",
+    "slug": "backflow-prevention-tmv-servicing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Electrical & Data",
+    "slug": "electrical-data",
+    "icon": "default.png"
+  },
+  {
+    "name": "Emergency electrical (24/7)",
+    "slug": "emergency-electrical-24-7",
+    "icon": "2.png"
+  },
+  {
+    "name": "Power points, switches, lighting upgrades",
+    "slug": "power-points-switches-lighting-upgrades",
+    "icon": "default.png"
+  },
+  {
+    "name": "Switchboard upgrades & safety switches (RCDs)",
+    "slug": "switchboard-upgrades-safety-switches-rcds",
+    "icon": "default.png"
+  },
+  {
+    "name": "Smoke alarms (install/test/compliance)",
+    "slug": "smoke-alarms-install-test-compliance",
+    "icon": "default.png"
+  },
+  {
+    "name": "EV chargers (home & commercial)",
+    "slug": "ev-chargers-home-commercial",
+    "icon": "default.png"
+  },
+  {
+    "name": "Data/phone cabling, NBN pre",
+    "slug": "data-phone-cabling-nbn-pre",
+    "icon": "default.png"
+  },
+  {
+    "name": "Home theatre & audio visual",
+    "slug": "home-theatre-audio-visual",
+    "icon": "default.png"
+  },
+  {
+    "name": "Test & tag (workplace/commercial)",
+    "slug": "test-tag-workplace-commercial",
+    "icon": "default.png"
+  },
+  {
+    "name": "Heating, Cooling & Ventilation (HVAC)",
+    "slug": "heating-cooling-ventilation-hvac",
+    "icon": "default.png"
+  },
+  {
+    "name": "Split",
+    "slug": "split",
+    "icon": "default.png"
+  },
+  {
+    "name": "Ducted air",
+    "slug": "ducted-air",
+    "icon": "default.png"
+  },
+  {
+    "name": "Evaporative cooling",
+    "slug": "evaporative-cooling",
+    "icon": "default.png"
+  },
+  {
+    "name": "Gas heaters",
+    "slug": "gas-heaters",
+    "icon": "default.png"
+  },
+  {
+    "name": "Ventilation, exhaust fans & subfloor fans",
+    "slug": "ventilation-exhaust-fans-subfloor-fans",
+    "icon": "default.png"
+  },
+  {
+    "name": "Thermostat controls & smart zoning",
+    "slug": "thermostat-controls-smart-zoning",
+    "icon": "default.png"
+  },
+  {
+    "name": "Roofing & Guttering",
+    "slug": "roofing-guttering",
+    "icon": "default.png"
+  },
+  {
+    "name": "Roof repairs (tile, metal, Colorbond)",
+    "slug": "roof-repairs-tile-metal-colorbond",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Re",
+    "slug": "re",
+    "icon": "freon.png"
+  },
+  {
+    "name": "Flashings, valleys & ridge capping",
+    "slug": "flashings-valleys-ridge-capping",
+    "icon": "default.png"
+  },
+  {
+    "name": "Gutter install/guard & downpipes",
+    "slug": "gutter-install-guard-downpipes",
+    "icon": "default.png"
+  },
+  {
+    "name": "Skylights & roof windows",
+    "slug": "skylights-roof-windows",
+    "icon": "default.png"
+  },
+  {
+    "name": "Leak detection & storm damage Make Safe",
+    "slug": "leak-detection-storm-damage-make-safe",
+    "icon": "default.png"
+  },
+  {
+    "name": "Painting & Decorating",
+    "slug": "painting-decorating",
+    "icon": "default.png"
+  },
+  {
+    "name": "Interior/exterior painting",
+    "slug": "interior-exterior-painting",
+    "icon": "default.png"
+  },
+  {
+    "name": "Feature walls & wallpaper",
+    "slug": "feature-walls-wallpaper",
+    "icon": "default.png"
+  },
+  {
+    "name": "Timber staining & oiling (decks, doors)",
+    "slug": "timber-staining-oiling-decks-doors",
+    "icon": "default.png"
+  },
+  {
+    "name": "Roof painting & sealing",
+    "slug": "roof-painting-sealing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Lead",
+    "slug": "lead",
+    "icon": "default.png"
+  },
+  {
+    "name": "Plaster & surface prep",
+    "slug": "plaster-surface-prep",
+    "icon": "default.png"
+  },
+  {
+    "name": "Plastering & Drywall",
+    "slug": "plastering-drywall",
+    "icon": "default.png"
+  },
+  {
+    "name": "Hole patching & cornices",
+    "slug": "hole-patching-cornices",
+    "icon": "default.png"
+  },
+  {
+    "name": "New walls & ceilings",
+    "slug": "new-walls-ceilings",
+    "icon": "default.png"
+  },
+  {
+    "name": "Soundproofing & acoustic panels",
+    "slug": "soundproofing-acoustic-panels",
+    "icon": "default.png"
+  },
+  {
+    "name": "Water damage repairs",
+    "slug": "water-damage-repairs",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Tiling, Stone & Masonry",
+    "slug": "tiling-stone-masonry",
+    "icon": "default.png"
+  },
+  {
+    "name": "Floor/wall tiling (bath/kitchen)",
+    "slug": "floor-wall-tiling-bath-kitchen",
+    "icon": "default.png"
+  },
+  {
+    "name": "Waterproofing (licensed where required)",
+    "slug": "waterproofing-licensed-where-required",
+    "icon": "default.png"
+  },
+  {
+    "name": "Regrouting & silicone renewal",
+    "slug": "regrouting-silicone-renewal",
+    "icon": "default.png"
+  },
+  {
+    "name": "Natural stone & pavers",
+    "slug": "natural-stone-pavers",
+    "icon": "default.png"
+  },
+  {
+    "name": "Bricklaying, retaining walls, blockwork",
+    "slug": "bricklaying-retaining-walls-blockwork",
+    "icon": "default.png"
+  },
+  {
+    "name": "Concrete slabs, paths & driveways",
+    "slug": "concrete-slabs-paths-driveways",
+    "icon": "default.png"
+  },
+  {
+    "name": "Polished concrete & epoxy floors",
+    "slug": "polished-concrete-epoxy-floors",
+    "icon": "default.png"
+  },
+  {
+    "name": "Flooring",
+    "slug": "flooring",
+    "icon": "default.png"
+  },
+  {
+    "name": "Timber/engineered/laminate install",
+    "slug": "timber-engineered-laminate-install",
+    "icon": "default.png"
+  },
+  {
+    "name": "Sanding & polishing",
+    "slug": "sanding-polishing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Hybrid & vinyl plank",
+    "slug": "hybrid-vinyl-plank",
+    "icon": "default.png"
+  },
+  {
+    "name": "Carpet install & stretching",
+    "slug": "carpet-install-stretching",
+    "icon": "default.png"
+  },
+  {
+    "name": "Tile removal & prep",
+    "slug": "tile-removal-prep",
+    "icon": "default.png"
+  },
+  {
+    "name": "Underlay, trims & transitions",
+    "slug": "underlay-trims-transitions",
+    "icon": "default.png"
+  },
+  {
+    "name": "Windows, Doors & Glazing",
+    "slug": "windows-doors-glazing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Window replacement & repairs",
+    "slug": "window-replacement-repairs",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Double glazing/retrofit",
+    "slug": "double-glazing-retrofit",
+    "icon": "default.png"
+  },
+  {
+    "name": "Flyscreens & security screens",
+    "slug": "flyscreens-security-screens",
+    "icon": "default.png"
+  },
+  {
+    "name": "Sliding door tracks & rollers",
+    "slug": "sliding-door-tracks-rollers",
+    "icon": "default.png"
+  },
+  {
+    "name": "Garage doors (install/service)",
+    "slug": "garage-doors-install-service",
+    "icon": "default.png"
+  },
+  {
+    "name": "Shower screens & mirrors",
+    "slug": "shower-screens-mirrors",
+    "icon": "default.png"
+  },
+  {
+    "name": "Bi",
+    "slug": "bi",
+    "icon": "Plumbing.png"
+  },
+  {
+    "name": "Fencing & Gates",
+    "slug": "fencing-gates",
+    "icon": "default.png"
+  },
+  {
+    "name": "Timber, Colorbond, aluminium",
+    "slug": "timber-colorbond-aluminium",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pool fencing & compliance",
+    "slug": "pool-fencing-compliance",
+    "icon": "default.png"
+  },
+  {
+    "name": "Slat screens & privacy",
+    "slug": "slat-screens-privacy",
+    "icon": "default.png"
+  },
+  {
+    "name": "Gates (manual/automatic)",
+    "slug": "gates-manual-automatic",
+    "icon": "man.png"
+  },
+  {
+    "name": "Rural fencing & stock fencing",
+    "slug": "rural-fencing-stock-fencing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Repairs & storm damage",
+    "slug": "repairs-storm-damage",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Outdoor, Landscaping & Garden",
+    "slug": "outdoor-landscaping-garden",
+    "icon": "default.png"
+  },
+  {
+    "name": "Lawn care & mowing",
+    "slug": "lawn-care-mowing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Hedging, pruning & tree lopping (arborist)",
+    "slug": "hedging-pruning-tree-lopping-arborist",
+    "icon": "default.png"
+  },
+  {
+    "name": "Garden makeovers & softscaping",
+    "slug": "garden-makeovers-softscaping",
+    "icon": "default.png"
+  },
+  {
+    "name": "Reticulation/irrigation & water tanks",
+    "slug": "reticulation-irrigation-water-tanks",
+    "icon": "default.png"
+  },
+  {
+    "name": "Turf (natural & synthetic)",
+    "slug": "turf-natural-synthetic",
+    "icon": "default.png"
+  },
+  {
+    "name": "Decks, pergolas, gazebos",
+    "slug": "decks-pergolas-gazebos",
+    "icon": "default.png"
+  },
+  {
+    "name": "Paving & edging",
+    "slug": "paving-edging",
+    "icon": "default.png"
+  },
+  {
+    "name": "Garden lighting & outdoor power",
+    "slug": "garden-lighting-outdoor-power",
+    "icon": "default.png"
+  },
+  {
+    "name": "Green waste removal",
+    "slug": "green-waste-removal",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pools, Spas & Saunas",
+    "slug": "pools-spas-saunas",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pool cleaning & regular servicing",
+    "slug": "pool-cleaning-regular-servicing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pumps, filters & chlorinators",
+    "slug": "pumps-filters-chlorinators",
+    "icon": "default.png"
+  },
+  {
+    "name": "Leak detection",
+    "slug": "leak-detection",
+    "icon": "default.png"
+  },
+  {
+    "name": "Heating (solar, gas, electric)",
+    "slug": "heating-solar-gas-electric",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pool fencing & compliance certificates",
+    "slug": "pool-fencing-compliance-certificates",
+    "icon": "default.png"
+  },
+  {
+    "name": "Spa install & maintenance",
+    "slug": "spa-install-maintenance",
+    "icon": "default.png"
+  },
+  {
+    "name": "Saunas & steam rooms",
+    "slug": "saunas-steam-rooms",
+    "icon": "default.png"
+  },
+  {
+    "name": "Cleaning & Housekeeping",
+    "slug": "cleaning-housekeeping",
+    "icon": "default.png"
+  },
+  {
+    "name": "Regular house cleaning",
+    "slug": "regular-house-cleaning",
+    "icon": "default.png"
+  },
+  {
+    "name": "End",
+    "slug": "end",
+    "icon": "default.png"
+  },
+  {
+    "name": "Deep cleans (kitchens, bathrooms)",
+    "slug": "deep-cleans-kitchens-bathrooms",
+    "icon": "default.png"
+  },
+  {
+    "name": "Window & flyscreen cleaning",
+    "slug": "window-flyscreen-cleaning",
+    "icon": "default.png"
+  },
+  {
+    "name": "Carpet, rug & upholstery steam clean",
+    "slug": "carpet-rug-upholstery-steam-clean",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pressure washing (paths, walls, roofs)",
+    "slug": "pressure-washing-paths-walls-roofs",
+    "icon": "default.png"
+  },
+  {
+    "name": "Solar panel cleaning",
+    "slug": "solar-panel-cleaning",
+    "icon": "default.png"
+  },
+  {
+    "name": "Oven & rangehood detailing",
+    "slug": "oven-rangehood-detailing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Post",
+    "slug": "post",
+    "icon": "default.png"
+  },
+  {
+    "name": "Rubbish, Recycling & Skip Hire",
+    "slug": "rubbish-recycling-skip-hire",
+    "icon": "default.png"
+  },
+  {
+    "name": "Household junk removal",
+    "slug": "household-junk-removal",
+    "icon": "default.png"
+  },
+  {
+    "name": "Green waste & storm debris",
+    "slug": "green-waste-storm-debris",
+    "icon": "default.png"
+  },
+  {
+    "name": "Construction & renovation waste",
+    "slug": "construction-renovation-waste",
+    "icon": "default.png"
+  },
+  {
+    "name": "Whitegoods & e",
+    "slug": "whitegoods-e",
+    "icon": "default.png"
+  },
+  {
+    "name": "Mattress & bulky items",
+    "slug": "mattress-bulky-items",
+    "icon": "default.png"
+  },
+  {
+    "name": "Skip bin delivery & pickup",
+    "slug": "skip-bin-delivery-pickup",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pest & Wildlife",
+    "slug": "pest-wildlife",
+    "icon": "default.png"
+  },
+  {
+    "name": "Termite inspections & barriers",
+    "slug": "termite-inspections-barriers",
+    "icon": "default.png"
+  },
+  {
+    "name": "General pest control (ants, cockroaches, spiders)",
+    "slug": "general-pest-control-ants-cockroaches-spiders",
+    "icon": "default.png"
+  },
+  {
+    "name": "Rodent proofing",
+    "slug": "rodent-proofing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Possum removal (licensed)",
+    "slug": "possum-removal-licensed",
+    "icon": "default.png"
+  },
+  {
+    "name": "Bird control & netting",
+    "slug": "bird-control-netting",
+    "icon": "default.png"
+  },
+  {
+    "name": "Security, Alarms & CCTV",
+    "slug": "security-alarms-cctv",
+    "icon": "default.png"
+  },
+  {
+    "name": "Alarm systems & monitoring setup",
+    "slug": "alarm-systems-monitoring-setup",
+    "icon": "default.png"
+  },
+  {
+    "name": "CCTV cameras & NVRs",
+    "slug": "cctv-cameras-nvrs",
+    "icon": "default.png"
+  },
+  {
+    "name": "Intercoms & access control",
+    "slug": "intercoms-access-control",
+    "icon": "default.png"
+  },
+  {
+    "name": "Security doors, screens & bars",
+    "slug": "security-doors-screens-bars",
+    "icon": "default.png"
+  },
+  {
+    "name": "Safes (install/bolt down)",
+    "slug": "safes-install-bolt-down",
+    "icon": "default.png"
+  },
+  {
+    "name": "Temporary site security",
+    "slug": "temporary-site-security",
+    "icon": "default.png"
+  },
+  {
+    "name": "Smart Home & IT",
+    "slug": "smart-home-it",
+    "icon": "default.png"
+  },
+  {
+    "name": "Smart lighting, sensors & automations",
+    "slug": "smart-lighting-sensors-automations",
+    "icon": "default.png"
+  },
+  {
+    "name": "Voice assistants & hubs",
+    "slug": "voice-assistants-hubs",
+    "icon": "default.png"
+  },
+  {
+    "name": "Wi",
+    "slug": "wi",
+    "icon": "demolition-tool-transport-with-weight-ball.png"
+  },
+  {
+    "name": "Home networking & NAS",
+    "slug": "home-networking-nas",
+    "icon": "default.png"
+  },
+  {
+    "name": "Device setup (TVs, soundbars, printers)",
+    "slug": "device-setup-tvs-soundbars-printers",
+    "icon": "default.png"
+  },
+  {
+    "name": "Cybersecurity checkup (home office)",
+    "slug": "cybersecurity-checkup-home-office",
+    "icon": "default.png"
+  },
+  {
+    "name": "Solar, Batteries & Energy",
+    "slug": "solar-batteries-energy",
+    "icon": "default.png"
+  },
+  {
+    "name": "Solar PV installs & upgrades",
+    "slug": "solar-pv-installs-upgrades",
+    "icon": "default.png"
+  },
+  {
+    "name": "Inverter replacement & diagnostics",
+    "slug": "inverter-replacement-diagnostics",
+    "icon": "default.png"
+  },
+  {
+    "name": "Battery storage (home/commercial)",
+    "slug": "battery-storage-home-commercial",
+    "icon": "default.png"
+  },
+  {
+    "name": "Solar hot water & heat",
+    "slug": "solar-hot-water-heat",
+    "icon": "default.png"
+  },
+  {
+    "name": "Energy audits & bill optimisation",
+    "slug": "energy-audits-bill-optimisation",
+    "icon": "default.png"
+  },
+  {
+    "name": "Appliances",
+    "slug": "appliances",
+    "icon": "default.png"
+  },
+  {
+    "name": "Install",
+    "slug": "install",
+    "icon": "default.png"
+  },
+  {
+    "name": "Repairs (authorised/independent)",
+    "slug": "repairs-authorised-independent",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Air",
+    "slug": "air",
+    "icon": "air-conditioning.png"
+  },
+  {
+    "name": "Commercial kitchen equipment (cafés & restaurants)",
+    "slug": "commercial-kitchen-equipment-caf-s-restaurants",
+    "icon": "default.png"
+  },
+  {
+    "name": "Building & Renovation",
+    "slug": "building-renovation",
+    "icon": "default.png"
+  },
+  {
+    "name": "Bathrooms, laundries & kitchens",
+    "slug": "bathrooms-laundries-kitchens",
+    "icon": "default.png"
+  },
+  {
+    "name": "Extensions & additions",
+    "slug": "extensions-additions",
+    "icon": "default.png"
+  },
+  {
+    "name": "Granny flats & studios",
+    "slug": "granny-flats-studios",
+    "icon": "default.png"
+  },
+  {
+    "name": "Garage conversions",
+    "slug": "garage-conversions",
+    "icon": "default.png"
+  },
+  {
+    "name": "Design & drafting (BASIX/NATHERS where relevant)",
+    "slug": "design-drafting-basix-nathers-where-relevant",
+    "icon": "default.png"
+  },
+  {
+    "name": "Owner",
+    "slug": "owner",
+    "icon": "default.png"
+  },
+  {
+    "name": "Quantity surveying & take",
+    "slug": "quantity-surveying-take",
+    "icon": "default.png"
+  },
+  {
+    "name": "Compliance, Inspection & Reports",
+    "slug": "compliance-inspection-reports",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pre",
+    "slug": "pre",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pool safety inspections/certificates",
+    "slug": "pool-safety-inspections-certificates",
+    "icon": "default.png"
+  },
+  {
+    "name": "Smoke alarm compliance (NSW/QLD regs)",
+    "slug": "smoke-alarm-compliance-nsw-qld-regs",
+    "icon": "default.png"
+  },
+  {
+    "name": "Electrical certificates of compliance",
+    "slug": "electrical-certificates-of-compliance",
+    "icon": "default.png"
+  },
+  {
+    "name": "Gas compliance certificates",
+    "slug": "gas-compliance-certificates",
+    "icon": "default.png"
+  },
+  {
+    "name": "Asbestos testing & removal (licensed)",
+    "slug": "asbestos-testing-removal-licensed",
+    "icon": "default.png"
+  },
+  {
+    "name": "Mould assessment & remediation",
+    "slug": "mould-assessment-remediation",
+    "icon": "default.png"
+  },
+  {
+    "name": "BAL (bushfire attack level) assessment",
+    "slug": "bal-bushfire-attack-level-assessment",
+    "icon": "default.png"
+  },
+  {
+    "name": "Dilapidation reports",
+    "slug": "dilapidation-reports",
+    "icon": "default.png"
+  },
+  {
+    "name": "Strata/common property reports",
+    "slug": "strata-common-property-reports",
+    "icon": "default.png"
+  },
+  {
+    "name": "Emergency & Disaster Recovery",
+    "slug": "emergency-disaster-recovery",
+    "icon": "default.png"
+  },
+  {
+    "name": "/7 Make Safe (roof, glazing, board",
+    "slug": "7-make-safe-roof-glazing-board",
+    "icon": "default.png"
+  },
+  {
+    "name": "Storm/flood/water extraction & drying",
+    "slug": "storm-flood-water-extraction-drying",
+    "icon": "default.png"
+  },
+  {
+    "name": "Fire damage cleanup & deodorising",
+    "slug": "fire-damage-cleanup-deodorising",
+    "icon": "default.png"
+  },
+  {
+    "name": "Insurance repair & quote management",
+    "slug": "insurance-repair-quote-management",
+    "icon": "man.png"
+  },
+  {
+    "name": "Temporary fencing & site safety",
+    "slug": "temporary-fencing-site-safety",
+    "icon": "default.png"
+  },
+  {
+    "name": "Strata & Property Management Services",
+    "slug": "strata-property-management-services",
+    "icon": "man.png"
+  },
+  {
+    "name": "Common",
+    "slug": "common",
+    "icon": "default.png"
+  },
+  {
+    "name": "Grounds & garden care",
+    "slug": "grounds-garden-care",
+    "icon": "default.png"
+  },
+  {
+    "name": "Lift lobby/foyer maintenance",
+    "slug": "lift-lobby-foyer-maintenance",
+    "icon": "default.png"
+  },
+  {
+    "name": "Carpark line",
+    "slug": "carpark-line",
+    "icon": "default.png"
+  },
+  {
+    "name": "Lighting & sensor maintenance",
+    "slug": "lighting-sensor-maintenance",
+    "icon": "default.png"
+  },
+  {
+    "name": "Compliance logs & contractor coordination",
+    "slug": "compliance-logs-contractor-coordination",
+    "icon": "default.png"
+  },
+  {
+    "name": "Moving, Storage & Relocations",
+    "slug": "moving-storage-relocations",
+    "icon": "default.png"
+  },
+  {
+    "name": "Local moves & interstate removals",
+    "slug": "local-moves-interstate-removals",
+    "icon": "default.png"
+  },
+  {
+    "name": "Packing/unpacking & materials",
+    "slug": "packing-unpacking-materials",
+    "icon": "default.png"
+  },
+  {
+    "name": "Piano & specialty item moves",
+    "slug": "piano-specialty-item-moves",
+    "icon": "default.png"
+  },
+  {
+    "name": "Office relocations",
+    "slug": "office-relocations",
+    "icon": "default.png"
+  },
+  {
+    "name": "Storage (short/long term)",
+    "slug": "storage-short-long-term",
+    "icon": "default.png"
+  },
+  {
+    "name": "Move",
+    "slug": "move",
+    "icon": "default.png"
+  },
+  {
+    "name": "Transport, Delivery & Courier",
+    "slug": "transport-delivery-courier",
+    "icon": "default.png"
+  },
+  {
+    "name": "Same",
+    "slug": "same",
+    "icon": "default.png"
+  },
+  {
+    "name": "Bulky item pickup",
+    "slug": "bulky-item-pickup",
+    "icon": "default.png"
+  },
+  {
+    "name": "Furniture delivery & assembly",
+    "slug": "furniture-delivery-assembly",
+    "icon": "default.png"
+  },
+  {
+    "name": "Click",
+    "slug": "click",
+    "icon": "default.png"
+  },
+  {
+    "name": "Trailer/ute hire & driver help",
+    "slug": "trailer-ute-hire-driver-help",
+    "icon": "default.png"
+  },
+  {
+    "name": "Automotive & Mobile Services",
+    "slug": "automotive-mobile-services",
+    "icon": "default.png"
+  },
+  {
+    "name": "Mobile mechanics & servicing",
+    "slug": "mobile-mechanics-servicing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Auto electrics & batteries",
+    "slug": "auto-electrics-batteries",
+    "icon": "default.png"
+  },
+  {
+    "name": "Windscreen repair/replacement",
+    "slug": "windscreen-repair-replacement",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Detailing & paint correction",
+    "slug": "detailing-paint-correction",
+    "icon": "default.png"
+  },
+  {
+    "name": "Tyres & puncture repair (mobile)",
+    "slug": "tyres-puncture-repair-mobile",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Boat, caravan & trailer servicing",
+    "slug": "boat-caravan-trailer-servicing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Metalwork & Fabrication",
+    "slug": "metalwork-fabrication",
+    "icon": "default.png"
+  },
+  {
+    "name": "Welding (onsite/mobile)",
+    "slug": "welding-onsite-mobile",
+    "icon": "default.png"
+  },
+  {
+    "name": "Custom gates, rails & handrails",
+    "slug": "custom-gates-rails-handrails",
+    "icon": "default.png"
+  },
+  {
+    "name": "Sheet metal & flashing",
+    "slug": "sheet-metal-flashing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Structural steel install",
+    "slug": "structural-steel-install",
+    "icon": "default.png"
+  },
+  {
+    "name": "Glass, Glazing & Screens",
+    "slug": "glass-glazing-screens",
+    "icon": "default.png"
+  },
+  {
+    "name": "Emergency glass replacement",
+    "slug": "emergency-glass-replacement",
+    "icon": "default.png"
+  },
+  {
+    "name": "Double glazing retrofits",
+    "slug": "double-glazing-retrofits",
+    "icon": "default.png"
+  },
+  {
+    "name": "Security & flyscreens",
+    "slug": "security-flyscreens",
+    "icon": "default.png"
+  },
+  {
+    "name": "Shower screens & splashbacks",
+    "slug": "shower-screens-splashbacks",
+    "icon": "default.png"
+  },
+  {
+    "name": "Signage & Printing",
+    "slug": "signage-printing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Real estate boards & corflutes",
+    "slug": "real-estate-boards-corflutes",
+    "icon": "default.png"
+  },
+  {
+    "name": "Vehicle wraps & magnets",
+    "slug": "vehicle-wraps-magnets",
+    "icon": "default.png"
+  },
+  {
+    "name": "Safety signage & site boards",
+    "slug": "safety-signage-site-boards",
+    "icon": "default.png"
+  },
+  {
+    "name": "Business cards, flyers & brochures",
+    "slug": "business-cards-flyers-brochures",
+    "icon": "default.png"
+  },
+  {
+    "name": "Garden Structures & Exteriors",
+    "slug": "garden-structures-exteriors",
+    "icon": "default.png"
+  },
+  {
+    "name": "Sheds & workshops",
+    "slug": "sheds-workshops",
+    "icon": "default.png"
+  },
+  {
+    "name": "Carports & shade sails",
+    "slug": "carports-shade-sails",
+    "icon": "default.png"
+  },
+  {
+    "name": "Water features & ponds",
+    "slug": "water-features-ponds",
+    "icon": "default.png"
+  },
+  {
+    "name": "Letterboxes & house numbers",
+    "slug": "letterboxes-house-numbers",
+    "icon": "default.png"
+  },
+  {
+    "name": "Wastewater, Septic & Rural",
+    "slug": "wastewater-septic-rural",
+    "icon": "default.png"
+  },
+  {
+    "name": "Septic systems & ATUs",
+    "slug": "septic-systems-atus",
+    "icon": "default.png"
+  },
+  {
+    "name": "Greywater systems",
+    "slug": "greywater-systems",
+    "icon": "default.png"
+  },
+  {
+    "name": "Bore pumps & irrigation",
+    "slug": "bore-pumps-irrigation",
+    "icon": "default.png"
+  },
+  {
+    "name": "Rural fencing & gates",
+    "slug": "rural-fencing-gates",
+    "icon": "default.png"
+  },
+  {
+    "name": "Dam & tank maintenance",
+    "slug": "dam-tank-maintenance",
+    "icon": "default.png"
+  },
+  {
+    "name": "Marine & Jetty",
+    "slug": "marine-jetty",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pontoon & jetty repairs",
+    "slug": "pontoon-jetty-repairs",
+    "icon": "repair.png"
+  },
+  {
+    "name": "Antifoul & detailing",
+    "slug": "antifoul-detailing",
+    "icon": "default.png"
+  },
+  {
+    "name": "Mooring checks",
+    "slug": "mooring-checks",
+    "icon": "default.png"
+  },
+  {
+    "name": "Accessibility, NDIS & Aged Care",
+    "slug": "accessibility-ndis-aged-care",
+    "icon": "default.png"
+  },
+  {
+    "name": "Home modifications (ramps, rails, widening)",
+    "slug": "home-modifications-ramps-rails-widening",
+    "icon": "default.png"
+  },
+  {
+    "name": "Bathroom accessibility upgrades",
+    "slug": "bathroom-accessibility-upgrades",
+    "icon": "default.png"
+  },
+  {
+    "name": "Falls prevention & flooring",
+    "slug": "falls-prevention-flooring",
+    "icon": "default.png"
+  },
+  {
+    "name": "Assistive tech & smart alerts",
+    "slug": "assistive-tech-smart-alerts",
+    "icon": "default.png"
+  },
+  {
+    "name": "In",
+    "slug": "in",
+    "icon": "paint-roller.png"
+  },
+  {
+    "name": "NDIS plan",
+    "slug": "ndis-plan",
+    "icon": "default.png"
+  },
+  {
+    "name": "Health, Wellness & Personal Care",
+    "slug": "health-wellness-personal-care",
+    "icon": "default.png"
+  },
+  {
+    "name": "Personal training & fitness setup",
+    "slug": "personal-training-fitness-setup",
+    "icon": "default.png"
+  },
+  {
+    "name": "Massage & remedial (mobile)",
+    "slug": "massage-remedial-mobile",
+    "icon": "default.png"
+  },
+  {
+    "name": "At",
+    "slug": "at",
+    "icon": "default.png"
+  },
+  {
+    "name": "Haircuts (mobile), makeup for events",
+    "slug": "haircuts-mobile-makeup-for-events",
+    "icon": "default.png"
+  },
+  {
+    "name": "Childcare, Family & Education",
+    "slug": "childcare-family-education",
+    "icon": "default.png"
+  },
+  {
+    "name": "Babysitting & nanny services",
+    "slug": "babysitting-nanny-services",
+    "icon": "default.png"
+  },
+  {
+    "name": "School pickup/drop",
+    "slug": "school-pickup-drop",
+    "icon": "default.png"
+  },
+  {
+    "name": "Tutoring (primary/secondary)",
+    "slug": "tutoring-primary-secondary",
+    "icon": "default.png"
+  },
+  {
+    "name": "Music lessons (home)",
+    "slug": "music-lessons-home",
+    "icon": "default.png"
+  },
+  {
+    "name": "Party entertainment for kids",
+    "slug": "party-entertainment-for-kids",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pets & Animals",
+    "slug": "pets-animals",
+    "icon": "default.png"
+  },
+  {
+    "name": "Dog walking & pet sitting",
+    "slug": "dog-walking-pet-sitting",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pet transport",
+    "slug": "pet-transport",
+    "icon": "default.png"
+  },
+  {
+    "name": "Mobile grooming",
+    "slug": "mobile-grooming",
+    "icon": "default.png"
+  },
+  {
+    "name": "Vet nurse home visits",
+    "slug": "vet-nurse-home-visits",
+    "icon": "default.png"
+  },
+  {
+    "name": "Pet waste removal & yard freshen",
+    "slug": "pet-waste-removal-yard-freshen",
+    "icon": "default.png"
+  },
+  {
+    "name": "Events & Hospitality",
+    "slug": "events-hospitality",
+    "icon": "default.png"
+  },
+  {
+    "name": "Party setup & pack",
+    "slug": "party-setup-pack",
+    "icon": "default.png"
+  },
+  {
+    "name": "Catering & grazing tables",
+    "slug": "catering-grazing-tables",
+    "icon": "default.png"
+  },
+  {
+    "name": "Bar staff & RSA servers",
+    "slug": "bar-staff-rsa-servers",
+    "icon": "default.png"
+  },
+  {
+    "name": "Equipment hire (marquees, chairs, AV)",
+    "slug": "equipment-hire-marquees-chairs-av",
+    "icon": "default.png"
+  },
+  {
+    "name": "Event photography & videography",
+    "slug": "event-photography-videography",
+    "icon": "default.png"
+  },
+  {
+    "name": "DJs, musicians & MCs",
+    "slug": "djs-musicians-mcs",
+    "icon": "default.png"
+  },
+  {
+    "name": "Photography, Video & Creative",
+    "slug": "photography-video-creative",
+    "icon": "default.png"
+  },
+  {
+    "name": "Real estate photography & floorplans",
+    "slug": "real-estate-photography-floorplans",
+    "icon": "default.png"
+  },
+  {
+    "name": "Virtual tours & Matterport",
+    "slug": "virtual-tours-matterport",
+    "icon": "default.png"
+  },
+  {
+    "name": "Drone photo/video",
+    "slug": "drone-photo-video",
+    "icon": "default.png"
+  },
+  {
+    "name": "Family/portrait sessions",
+    "slug": "family-portrait-sessions",
+    "icon": "default.png"
+  },
+  {
+    "name": "Photo editing & retouching",
+    "slug": "photo-editing-retouching",
+    "icon": "default.png"
+  },
+  {
+    "name": "Graphic design & branding",
+    "slug": "graphic-design-branding",
+    "icon": "default.png"
+  },
+  {
+    "name": "Business, Admin & Virtual Support",
+    "slug": "business-admin-virtual-support",
+    "icon": "default.png"
+  },
+  {
+    "name": "Virtual assistants & data entry",
+    "slug": "virtual-assistants-data-entry",
+    "icon": "default.png"
+  },
+  {
+    "name": "Bookkeeping & BAS support",
+    "slug": "bookkeeping-bas-support",
+    "icon": "default.png"
+  },
+  {
+    "name": "Document formatting & tenders",
+    "slug": "document-formatting-tenders",
+    "icon": "default.png"
+  },
+  {
+    "name": "Transcription & minute",
+    "slug": "transcription-minute",
+    "icon": "default.png"
+  },
+  {
+    "name": "CRM setup & automation",
+    "slug": "crm-setup-automation",
+    "icon": "default.png"
+  },
+  {
+    "name": "Legal, Finance & Property Services",
+    "slug": "legal-finance-property-services",
+    "icon": "default.png"
+  },
+  {
+    "name": "Conveyancing support",
+    "slug": "conveyancing-support",
+    "icon": "default.png"
+  },
+  {
+    "name": "Mortgage broker introductions",
+    "slug": "mortgage-broker-introductions",
+    "icon": "default.png"
+  },
+  {
+    "name": "Quantity surveyor (tax depreciation)",
+    "slug": "quantity-surveyor-tax-depreciation",
+    "icon": "default.png"
+  },
+  {
+    "name": "Land surveying & set",
+    "slug": "land-surveying-set",
+    "icon": "default.png"
+  },
+  {
+    "name": "Town planning & DA support",
+    "slug": "town-planning-da-support",
+    "icon": "default.png"
+  },
+  {
+    "name": "IT, Web & Cyber",
+    "slug": "it-web-cyber",
+    "icon": "default.png"
+  },
+  {
+    "name": "Home office setup & ergonomics",
+    "slug": "home-office-setup-ergonomics",
+    "icon": "default.png"
+  },
+  {
+    "name": "PC/Mac tune",
+    "slug": "pc-mac-tune",
+    "icon": "default.png"
+  },
+  {
+    "name": "Backups & data recovery",
+    "slug": "backups-data-recovery",
+    "icon": "default.png"
+  },
+  {
+    "name": "Website updates (WordPress, Shopify)",
+    "slug": "website-updates-wordpress-shopify",
+    "icon": "default.png"
+  },
+  {
+    "name": "Email/domain setup & troubleshooting",
+    "slug": "email-domain-setup-troubleshooting",
+    "icon": "default.png"
+  },
+  {
+    "name": "Sustainability & Environment",
+    "slug": "sustainability-environment",
+    "icon": "default.png"
+  },
+  {
+    "name": "Rainwater & greywater reuse",
+    "slug": "rainwater-greywater-reuse",
+    "icon": "default.png"
+  },
+  {
+    "name": "Native garden conversions",
+    "slug": "native-garden-conversions",
+    "icon": "default.png"
+  },
+  {
+    "name": "Composting & worm farms",
+    "slug": "composting-worm-farms",
+    "icon": "default.png"
+  },
+  {
+    "name": "Energy",
+    "slug": "energy",
+    "icon": "default.png"
+  },
+  {
+    "name": "E",
+    "slug": "e",
+    "icon": "demolition-tool-transport-with-weight-ball.png"
+  },
+  {
+    "name": "Specialty Trades & Niche Services",
+    "slug": "specialty-trades-niche-services",
+    "icon": "default.png"
+  },
+  {
+    "name": "Asbestos removal (Class A/B licensed)",
+    "slug": "asbestos-removal-class-a-b-licensed",
+    "icon": "default.png"
+  },
+  {
+    "name": "Lead & mould remediation",
+    "slug": "lead-mould-remediation",
+    "icon": "default.png"
+  },
+  {
+    "name": "Heritage restoration trades",
+    "slug": "heritage-restoration-trades",
+    "icon": "default.png"
+  },
+  {
+    "name": "Stone masonry & tuck",
+    "slug": "stone-masonry-tuck",
+    "icon": "default.png"
+  },
+  {
+    "name": "Acoustic treatment & sound studios",
+    "slug": "acoustic-treatment-sound-studios",
+    "icon": "default.png"
+  },
+  {
+    "name": "Safe room / panic hardware",
+    "slug": "safe-room-panic-hardware",
+    "icon": "default.png"
+  }
+]

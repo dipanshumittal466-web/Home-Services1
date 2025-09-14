@@ -1,1 +1,0 @@
-const PDFDocument=require('pdfkit');function createInvoiceStream(invoiceData){const doc=new PDFDocument();doc.fontSize(20).text('Invoice',{align:'center'});doc.moveDown();doc.text(`Invoice #: ${invoiceData.number||'INV-1'}`);(invoiceData.items||[]).forEach(it=>{doc.text(`${it.title} - ${it.price}`)});doc.end();return doc;}module.exports={createInvoiceStream};

@@ -1,1 +1,0 @@
-const express=require('express');const Category=require('../models/Category');const router=express.Router();router.get('/',async(req,res)=>{const cats=await Category.find().sort('name').lean();res.json({ok:true,categories:cats});});module.exports=router;

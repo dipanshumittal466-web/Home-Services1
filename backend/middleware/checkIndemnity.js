@@ -1,1 +1,0 @@
-module.exports = function(req,res,next){const user=req.user||(req.body&&req.body.user);if(!user) return res.status(401).json({ok:false,error:'Not authenticated'});if(!user.indemnityAccepted) return res.status(403).json({ok:false,error:'Indemnity not accepted'});next();};
